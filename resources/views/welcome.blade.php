@@ -23,7 +23,7 @@
     </head>
     <body>
             <div id="app">
-                <welcome :title="'{{$title}}'" :text="'{{text}}'" :img_src="'{{img_src}}'"></welcome>
+                <welcome :title="'{{$title}}'" :text="'{{$text}}'" :img_src="'{{$img_src}}'"></welcome>
             </div>
             <script type="text/javascript" src="js/app.js"></script>
         </body>

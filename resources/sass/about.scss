@@ -1,0 +1,75 @@
+.about-image {
+    text-align: right;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    img {
+        height: 400px;
+        width: 400px;
+        border: 3px solid black;
+    }
+}
+
+.about-skills {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0px 20px 0px;
+}
+
+.about-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about-text p {
+    align-text: justify;
+}
+
+@media (max-width: 1200px) {
+    .about-image {
+        margin-top: 30px;
+
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-image {
+        height: 200px;
+        width: 200px;
+        img {
+            height: 200px;
+            width: 200px;
+        }
+    }
+}
+
+.about-works {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-work {
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+.job {
+    margin-top: 10px;
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        line-height: 0.7;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        &:hover {
+            background-image: url(asset_path("waves.gif"));
+            color: white;
+        }
+    }
+}

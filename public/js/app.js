@@ -1900,8 +1900,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  props: ['title', 'author']
+  props: ['title', 'project']
 });
 
 /***/ }),
@@ -1917,8 +1925,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-//
-//
 //
 //
 //
@@ -6490,7 +6496,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nhtml[data-v-524c0c0c], body[data-v-524c0c0c] {\n    background-color: #47ac7c;\n    color: #363636;\n    font-family: 'Raleway', sans-serif;\n    font-weight: 100;\n    height: 100vh;\n    margin: 0;\n}\n.title[data-v-524c0c0c] {\n    font-size: 60px;\n}\n.subtitle[data-v-524c0c0c] {\n    font-size: 20px;\n}\n.full-height[data-v-524c0c0c] {\n    height: 100vh;\n}\n.flex-center[data-v-524c0c0c] {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n}\n.position-ref[data-v-524c0c0c] {\n    position: relative;\n}\n.top-right[data-v-524c0c0c] {\n    position: absolute;\n    right: 10px;\n    top: 18px;\n}\n.content[data-v-524c0c0c] {\n    text-align: center;\n}\n.m-b-md[data-v-524c0c0c] {\n    margin-bottom: 30px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nhtml[data-v-524c0c0c], body[data-v-524c0c0c] {\n            \n            font-family: 'Raleway', sans-serif;\n            font-weight: 100;\n            height: 100vh;\n            margin: 0;\n}\n.card-title[data-v-524c0c0c]{\n            font-size: 24px;\n            margin-top: 20px;\n}\n.bold[data-v-524c0c0c]{\n    font-weight: bolder;\n}\n.project-card[data-v-524c0c0c]{\n            max-width: 600px;\n            max-height: 600px;\n            margin-top: 20px;\n            margin-bottom: 100px;\n            border: 5px solid black;\n            border-radius: 3px;\n            padding: 10px;\n            padding-left: 15px;\n            text-align: justify;\n            margin: 30px;\n}\n.project-card img[data-v-524c0c0c]{\n            height: 300px;\n            width: 100%;\n            -o-object-fit: contain;\n               object-fit: contain;\n}\n.project-card a[data-v-524c0c0c]{\n            text-decoration: none;\n            color: black;\n            text-align: right;\n            font-style: italic;\n}\n.home-container[data-v-524c0c0c]{\n            padding-top: 70px;\n            min-height: 100vh;\n            width: 100vw;\n            border-top: 1vh solid black;\n            border-left: 1vh solid black;\n            border-right: 1vh solid black;\n            padding-left: 10%;\n            padding-right: 10%;\n            background-color: #47ac7c;\n            color: #363636;\n}\n.title[data-v-524c0c0c]{\n            font-size: 36px;\n}\n   \n  \n    ", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6514,7 +6520,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nhtml[data-v-51777872], body[data-v-51777872] {\n    background-color: #f6b75c;\n    color: #363636;\n    font-family: 'Raleway', sans-serif;\n    font-weight: 100;\n    height: 100vh;\n    margin: 0;\n}\n.about-image img[data-v-51777872]{\n    height: 200px;\n    width: 200px;\n}\n.full-height[data-v-51777872] {\n    height: 100vh;\n}\n.flex-center[data-v-51777872] {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n}\n.position-ref[data-v-51777872] {\n    position: relative;\n}\n.top-right[data-v-51777872] {\n    position: absolute;\n    right: 10px;\n    top: 18px;\n}\n.content[data-v-51777872] {\n    text-align: center;\n}\n.title[data-v-51777872] {\n    font-size: 84px;\n}\n.links > a[data-v-51777872] {\n    color: #636b6f;\n    padding: 0 25px;\n    font-size: 12px;\n    font-weight: 600;\n    letter-spacing: .1rem;\n    text-decoration: none;\n    text-transform: uppercase;\n}\n.m-b-md[data-v-51777872] {\n    margin-bottom: 30px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nhtml[data-v-51777872], body[data-v-51777872] {\n    background-color: #f6b75c;\n    color: #363636;\n    font-family: 'Raleway', sans-serif;\n    font-weight: 100;\n    height: 100vh;\n    margin: 0;\n}\n.home-container[data-v-51777872]{\n    padding-top: 70px;\n    min-height: 100vh;\n    width: 100vw;\n    border-top: 1vh solid black;\n    border-left: 1vh solid black;\n    border-right: 1vh solid black;\n    padding-left: 10%;\n    padding-right: 10%;\n}\n.but[data-v-51777872]{\n    text-decoration: none;\n    mix-blend-mode: difference;\n    padding: 5px;\n    width:160px;\n    font-size: 18px;\n    font-weight: bolder;\n    border-radius: 3px;\n    text-align: center;\n    border: 1px solid white;\n    color: black;\n    background-color: white;\n}\n.but[data-v-51777872]:hover{\n    color:white;\n    background-image: url(https://media.giphy.com/media/LUl2tRY5oVlBu/giphy.gif);\n    text-decoration: none;\n}\n.but a[data-v-51777872]:hover{\n    color: white;\n}\n.but a[data-v-51777872]{\n    color: black;\n}\n.about-image[data-v-51777872] {\n   text-align: center;\n    height: 300px;\n    width: 300px;\n    padding: 20px;\n}\n.about-image img[data-v-51777872]{\nheight: 300px;\nwidth: 300px;\nborder: 3px solid black;\n}\n.full-height[data-v-51777872] {\n    height: 100vh;\n}\n.flex-center[data-v-51777872] {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n}\n.position-ref[data-v-51777872] {\n    position: relative;\n}\n.top-right[data-v-51777872] {\n    position: absolute;\n    right: 10px;\n    top: 18px;\n}\n.content[data-v-51777872] {\n    text-align: center;\n}\n.title[data-v-51777872] {\n    font-size: 84px;\n}\n.links > a[data-v-51777872] {\n    color: #636b6f;\n    padding: 0 25px;\n    font-size: 12px;\n    font-weight: 600;\n    letter-spacing: .1rem;\n    text-decoration: none;\n    text-transform: uppercase;\n}\n.m-b-md[data-v-51777872] {\n    margin-bottom: 30px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -38189,28 +38195,38 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("body", [
-    _c("div", { staticClass: "flex-center position-ref full-height" }, [
+    _c("div", { staticClass: "home-container " }, [
       _c("div", { staticClass: "content" }, [
         _c("div", { staticClass: "title m-b-md" }, [
           _vm._v("\n                " + _vm._s(_vm.title) + "\n            ")
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "links" }, [
-          _c("span", { staticClass: "subtitle" }, [
-            _vm._v("Name : " + _vm._s(_vm.author.name))
-          ]),
-          _c("br"),
-          _vm._v(" "),
-          _c("span", { staticClass: "subtitle" }, [
-            _vm._v("Role : " + _vm._s(_vm.author.role))
-          ]),
-          _c("br"),
-          _vm._v(" "),
-          _c("span", { staticClass: "subtitle" }, [
-            _vm._v("Code : " + _vm._s(_vm.author.code))
-          ]),
-          _c("br")
-        ])
+        _c(
+          "div",
+          { staticClass: "links" },
+          _vm._l(_vm.project, function(p) {
+            return _c("div", [
+              _c("div", { staticClass: "project-card" }, [
+                _c("img", { attrs: { src: p.img, alt: "" } }),
+                _vm._v(" "),
+                _c("span", { staticClass: "card-title bold" }, [
+                  _vm._v(_vm._s(p.name))
+                ]),
+                _vm._v(" "),
+                _c("br"),
+                _vm._v(" "),
+                _c("span", { staticClass: "card-title" }, [
+                  _vm._v(_vm._s(p.desc))
+                ]),
+                _vm._v(" "),
+                _c("br"),
+                _vm._v(" "),
+                _c("a", { attrs: { href: p.github } }, [_vm._v("Github")])
+              ])
+            ])
+          }),
+          0
+        )
       ])
     ])
   ])
@@ -38239,7 +38255,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("body", [
-    _c("div", { staticClass: "home-container salmon scrollable center" }, [
+    _c("div", { staticClass: "home-container" }, [
       _c("div", [
         _c("div", { staticClass: "about-content row" }, [
           _c("div", { staticClass: "about-text col-12 col-lg-6" }, [
@@ -38266,7 +38282,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "but" }, [
-      _c("a", { attrs: { href: "www.wft.wtf" } }, [_vm._v("My website")])
+      _c("a", { attrs: { href: "https://www.wft.wtf" } }, [
+        _vm._v("My website")
+      ])
     ])
   }
 ]

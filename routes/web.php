@@ -27,10 +27,10 @@ Auth::routes();
         return view('page',
             [
                 'title' => "Page 2 - A little about the Author",
-                'author' => json_encode([
+                'project' => json_encode([
                         "name" => "Will Thompson",
-                        "role" => "Software Developer",
-                        "code" => "WFT"
+                        "github" => "Software Developer",
+                        "img" => "WFT"
                 ])
             ]
         );

@@ -4,7 +4,7 @@
                 <div class="container">
                     <ul class="navbar-nav">
                         <router-link :to="{ name: 'welcome' }" class="nav-link">Home</router-link>
-                        <router-link :to="{ name: 'page' }" class="nav-link" >Second page</router-link>
+                        <router-link :to="{ name: 'page' }" class="nav-link" >More info</router-link>
                     </ul>
                 </div>
             </nav>
@@ -16,3 +16,11 @@
     <script>
         export default {}
     </script>
+<style scoped>
+    .navbar{
+        background-color: #feb7c5;
+        border-top: 1vh solid black;
+            border-left: 1vh solid black;
+            border-right: 1vh solid black;
+    }
+</style>

@@ -12,7 +12,7 @@
         </head>
         <body>
             <div id="app">
-                <page :title="'{{$title}}'" :author="{{$author}}"></page>
+                <page :title="'{{$title}}'" :project="{{$project}}"></page>
             </div>
             <script type="text/javascript" src="js/app.js"></script>
         </body>

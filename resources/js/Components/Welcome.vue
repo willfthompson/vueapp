@@ -1,9 +1,7 @@
 
 <template>
 <body>
-    
-
-    <div class="home-container salmon scrollable center">
+     <div class="home-container">
   <div>
     <div class="about-content row">
       <div class="about-text col-12 col-lg-6">
@@ -12,7 +10,7 @@
         <p>{{text}}</p>
           
         <div class="but">
-            <a href="www.wft.wtf">My website</a>
+            <a href="https://www.wft.wtf">My website</a>
         </div>
       </div>
       <div class="about-image col-12 center col-lg-6">
@@ -39,11 +37,58 @@
             margin: 0;
         }
 
-        .about-image img{
-            height: 200px;
-            width: 200px;
+        .home-container{
+            padding-top: 70px;
+            min-height: 100vh;
+            width: 100vw;
+            border-top: 1vh solid black;
+            border-left: 1vh solid black;
+            border-right: 1vh solid black;
+            padding-left: 10%;
+            padding-right: 10%;
+            }
 
+        .but{
+            text-decoration: none;
+            mix-blend-mode: difference;
+            padding: 5px;
+            width:160px;
+            font-size: 18px;
+            font-weight: bolder;
+            border-radius: 3px;
+            text-align: center;
+            border: 1px solid white;
+            color: black;
+            background-color: white;
         }
+        .but:hover{
+            color:white;
+            background-image: url(https://media.giphy.com/media/LUl2tRY5oVlBu/giphy.gif);
+            text-decoration: none;
+        }
+
+        .but a:hover{
+            color: white;
+        }
+    
+        .but a{
+            color: black;
+        }
+
+        .about-image {
+           text-align: center;
+            height: 300px;
+            width: 300px;
+            padding: 20px;
+        }
+
+            
+        .about-image img{
+        height: 300px;
+        width: 300px;
+        border: 3px solid black;
+        }
+
 
         .full-height {
             height: 100vh;
