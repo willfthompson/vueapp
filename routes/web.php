@@ -15,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome', [
-                'title' => "An even cooler way to do the title"
+                'title' => "An even cooler way to do the title",
+                'text' => "Some Text"
     ]);
 });
 

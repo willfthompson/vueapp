@@ -1,30 +1,48 @@
-    <template>
-        <div class="flex-center position-ref full-height">
-            <div class="content">
-                <div class="title m-b-md">
-                    {{title}}
-                </div>
-                <div class="links">
-                    <a href="https://laravel.com/docs">View Laravel Docs</a>
-                    <a href="https://vuejs.org/v2/guide/">View Vue Docs</a>
-                    <a href="https://laracasts.com">Watch Videos</a>
-                </div>
-            </div>
+
+<template>
+<body>
+    
+
+    <div class="home-container salmon scrollable center">
+  <div>
+    <div class="about-content row">
+      <div class="about-text col-12 col-lg-6">
+        <h1>{{title}}</h1>
+        <br>
+        <p>{{text}}</p>
+          
+        <div class="but">
+            <a href="www.wft.wtf">My website</a>
         </div>
+      </div>
+      <div class="about-image col-12 center col-lg-6">
+        <img :src="img_src" alt="">
+      </div>
+    </div>
+</div>
+  </div>
+</div>
+</body>
     </template>
     <script>
         export default {
-            props : ['title']
+            props : ['title', 'text', 'img_src']
         }
     </script>
     <style scoped>
         html, body {
-            background-color: #fff;
-            color: #636b6f;
+            background-color: #f6b75c;
+            color: #363636;
             font-family: 'Raleway', sans-serif;
             font-weight: 100;
             height: 100vh;
             margin: 0;
+        }
+
+        .about-image img{
+            height: 200px;
+            width: 200px;
+
         }
 
         .full-height {

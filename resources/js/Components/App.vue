@@ -4,7 +4,7 @@
                 <div class="container">
                     <ul class="navbar-nav">
                         <router-link :to="{ name: 'welcome' }" class="nav-link">Home</router-link>
-                        <router-link :to="{ name: 'page' }" class="nav-link" >Spa-Page</router-link>
+                        <router-link :to="{ name: 'page' }" class="nav-link" >Second page</router-link>
                     </ul>
                 </div>
             </nav>

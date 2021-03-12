@@ -1,4 +1,7 @@
     <template>
+    <body>
+        
+    
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
@@ -12,6 +15,7 @@
                 </div>
             </div>
         </div>
+        </body>
     </template>
 
     <script>
@@ -21,8 +25,8 @@
     </script>
     <style scoped>
         html, body {
-            background-color: #fff;
-            color: #939b9f;
+            background-color: #47ac7c;
+            color: #363636;
             font-family: 'Raleway', sans-serif;
             font-weight: 100;
             height: 100vh;
